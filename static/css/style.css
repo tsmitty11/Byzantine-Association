@@ -1,1 +1,5 @@
-
+.hero-section{
+  background-image: url(/swiss-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
