@@ -1,76 +1,42 @@
 <div class="container footer mt-auto border-top">
     <div class="row mb-5 mt-5">
-      <div class="col-lg-4">
+      <div class="col-lg-3">
         <img src="/ba-logo-color.png" alt="Byzantine Association Logo" style="width:140px;">
-        <p class="boilerplate mt-3 small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p class="boilerplate mt-3 small">
+          <strong>Byzantine Association AG</strong><br>
+          Baarerstrasse 10<br>
+          6300 Zug<br>
+          Switzerland<br></p>
       </div>
 
       <div class="col-lg-2 col-sm-6 col-6 mt-3">
         <h6>Quick Links</h6>
         <ul class="nav flex-column small">
           <li class="nav-item">
-            <a class="nav-link ps-0" href="#">Menu Item</a>
+            <a class="nav-link ps-0" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ps-0" href="#">Menu Item</a>
+            <a class="nav-link ps-0" href="/team/">Our Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ps-0" href="/#">Menu Item</a>
+            <a class="nav-link ps-0" href="/terms-of-use/">Terms of Use</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link ps-0" href="/white-paper">Menu Item</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ps-0" href="https://medium.com/teaxyz">Menu Item</a>
+            <a class="nav-link ps-0" href="/privacy-policy/">Privacy Policy</a>
           </li>
         </ul>
       </div>
 
-      <div class="col-lg-2 col-sm-6 col-6 mt-3 mb-3">
-        <h6>Legal</h6>
-        <ul class="nav flex-column small">
-          <li class="nav-item">
-            <a class="nav-link ps-0" href="#">Menu Item</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ps-0" href="#">Menu Item</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ps-0" href="#">Menu Item</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ps-0" href="#">Menu Item</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="col-lg-4 mt-3">
-        <h6 class=" mb-4">Get updates to your inbox</h6>
-
-<!-- Start Sendx Form Module -->
-
-      <div class="sendx-modal-TRDBBvXuDV3vy1t0U684MU">
-        <div class="sendx-modal-content-TRDBBvXuDV3vy1t0U684MU sendx-modal">
-          <div class="sendx-modal-right-TRDBBvXuDV3vy1t0U684MU">
-            <div class="sendx-modal-body-TRDBBvXuDV3vy1t0U684MU">
-	             <form class="sendx-submit-form-TRDBBvXuDV3vy1t0U684MU" method="post" action="https://app.sendx.io/api/v1/form/TRDBBvXuDV3vy1t0U684MU">
-	                <input id="SubscriberForm-Email-TRDBBvXuDV3vy1t0U684MU" type="Email" class="sendx-field-TRDBBvXuDV3vy1t0U684MU email-field mb-3" data-attr-type="0" name="Email" placeholder="Your Email" required>
-	                <input type="submit" class="sendx-submit-TRDBBvXuDV3vy1t0U684MU sendx-button-TRDBBvXuDV3vy1t0U684MU btn-primary email-submit"  name="subscribe" value="Subscribe">
-	               </input>
-               </form>
-	             <div class="sendx-close-text-TRDBBvXuDV3vy1t0U684MU">
-              <p></p>
-	           </div>
-	         <div style="display:flex; align-items:baseline;" class="sendx-gdpr-TRDBBvXuDV3vy1t0U684MU-wrapper">
-	               <input class="sendx-gdpr-TRDBBvXuDV3vy1t0U684MU" type="checkbox"></input><span class="sendx-gdpr-content-TRDBBvXuDV3vy1t0U684MU ms-2"><p>Opt in to receive updates from us </p></span>
-    	         </div>
-    	       </div>
+      <div class="col-lg-4 mt-3 ms-auto border-start">
+        <form name="subscribe" method="POST" data-netlify="true">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Get updates to your inbox</label>
+            <input placeholder="you@email.com" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
           </div>
-        </div>
-    </div>
-
-<!-- End Sendx Form -->
-
+          <button type="submit" class="btn btn-primary btn-sm">Submit</button>
+        </form>
+      </div>
 
   <!-- JavaScript Bundle with Popper -->
 

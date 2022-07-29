@@ -1,8 +1,26 @@
 /* General */
 
+.btn-primary{
+  background-color: #03A9FF;
+  border-radius: 0px;
+  width:200px;
+}
+
 /* Typography */
 
-h1,h2,h3,h4,h5,h6,p,li,a{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a,
+label,
+.form-text,
+input,
+.btn-primary{
   font-family: 'Fira Code', monospace;
 }
 
