@@ -1,4 +1,15 @@
+/* Typography */
+
+h1,h2,h3,h4,h5,h6,p,li,a{
+  font-family: 'Fira Code', monospace;
+}
+
+h1{
+  font-weight: 700 !important;
+}
+
 .hero-section{
+  height: 75vh;
   background-image: url(/swiss-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
