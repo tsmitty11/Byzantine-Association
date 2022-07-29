@@ -18,9 +18,24 @@
 <section class="section">
   <div class="container mt-5 mb-5">
     <div class="row">
-      <div class="col-lg-8 col-md-8 col-sm-12 col-12">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12">
         <h2>Vision</h2>
         <p class="lead">The Byzantine Association is a recognized nonprofit association under Swiss law. The BA engages with existing and future donors to create a long lasting and ongoing program of grants supporting the research and development of emerging technologies. The BA supports open source and transparent scientific research for emerging technologies. The BA provides grants to developers and scientists in Switzerland and abroad. All research results are published under an open source license and may be freely used by anyone.</p>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+        <h3>Contact</h3>
+        <form name="contact" method="POST" data-netlify="true">
+          <div class="mb-3">
+            <label for="fullname" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="fullname">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
     </div>
   </div>
