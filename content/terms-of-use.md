@@ -6,7 +6,8 @@ menu: main
 weight: 4
 ---
 
-**WEBSITE TERMS OF USE**
+## WEBSITE TERMS OF USE
+
 
 of **Byzantine Association** (hereinafter “**Byzantine Association**” or the “**Association**”)
 

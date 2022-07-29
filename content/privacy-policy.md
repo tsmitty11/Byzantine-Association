@@ -6,7 +6,7 @@ menu: main
 weight: 3
 ---
 
-**﻿PRIVACY POLICY**
+## PRIVACY POLICY
 
 
 Byzantine Association, an association organized and existing under the laws of Switzerland with registered offices at Baarerstrasse 10, 6300 Zug, Switzerland (hereinafter "**Byzantine Association**" or "**we**" or “**us**”) as the operator of this website (hereinafter the “**Website**”) takes the protection of your personal data very seriously. The purpose of this privacy policy (hereinafter the “**Privacy Policy**”) is to inform you (hereinafter “**you**” or “**User**”) about how we collect, process and use your Personal Data.
