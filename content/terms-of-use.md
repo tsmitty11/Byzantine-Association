@@ -1,6 +1,6 @@
 ---
 title: "Terms of Use"
-description: "Supporting Emerging Blockchain Technology"
+description: "Byzantine Terms of Use"
 layout: "terms-of-use"
 menu: main
 weight: 4

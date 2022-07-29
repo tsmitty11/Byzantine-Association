@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-description: "Supporting Emerging Blockchain Technology"
+description: "Byzantine Privacy Policy"
 layout: "privacy-policy"
 menu: main
 weight: 3
